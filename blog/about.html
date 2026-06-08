@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="fragment_nav">
+    </div>
+
+    <main class="flex">
+        <div>
+          <img class="fotoBlog" src="./assets/foto_blog.png" alt="pessoa olhando para um grafo e um autômato finito">
+          <p class="part">
+            Meu nome é Gabriel Romão Soares, matrícula 215811 na UPF. No ensino médio comecei a progranmar em um aplicativo de celular 
+            e fiquei muito interessado no processo de programação, após a conclusão do ensino médio, eu iniciei meus estudos no mundo do desenvolvimento web na ebac
+            no curso de fullstack python, onde estudei html, css e js e frameworks frontend com python no backend. 
+          </p>
+          <p class="part">
+            Logo depois de terminar o curso da ebac, decidi seguir meus estudos na faculdade no curso de Ciência da Computação da FIAP, onde fiz um ano completo de estudo.
+            Após este ano de aprendizado tive que me mudar de estado de São Paulo, SP para Passo Fundo, RS. Com isso me transferi para a UPF, onde continuo meus estudos em Ciência da Computação. 
+          </p>
+          <p class="part">
+            Meu caminho profissional na área ainda não começou, mas pretendo começar em algum momento. Meus interesses na área são muitos como o pensamento algorítmico, Ciência da Computação prática e teórica,
+            onde pretendo fazer aplicações para ajudar no ensino de autômatos finitos, grafos e outras áreas do conhecimento como filosofia e a possibilidade de máquinas realmente poderem pensar como nós humanos.   
+          </p>
+        </div>
+        <div class="width">
+            <h1>Últimas Postagens</h1>
+            <ul id="posts">
+            </ul>
+            <div id="meuModal" class="modal" style="display: none;">
+                <div class="conteudo-modal">
+                    <span onclick="fecharModal()" class="botao-fechar">&times;</span>
+                    <h2 id="modalTitulo"></h2>
+                    <p id="modalConteudo"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

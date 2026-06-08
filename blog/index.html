@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body id="dev">
+    <div id="fragment_nav">
+    </div>
+
+    <main class="flex">
+        <div>
+            <h1>Breve Introdução</h1>
+            <div class="container_p">
+                <p class="padding">
+                    Este blog foi construído com o objetivo de integrar as tecnologias fundamentais do desenvolvimento web moderno: HTML5, CSS3 e JavaScript. O foco principal aqui é a semântica, a organização estrutural e a usabilidade, combinando design limpo com recursos dinâmicos.
+    
+                    Navegando pelo menu, você terá acesso a diferentes seções desenvolvidas para apresentar meu perfil e alguns conteúdos de forma organizada:
+                </p>
+            </div>
+            <ul>
+                <li>Trajetória: Na página Sobre Mim, compartilho um pouco da minha jornada acadêmica, profissional e interesses pessoais.</li>
+                <li>Profissional: A seção de Currículo detalha minhas competências técnicas e formação de maneira clara e tabulada.</li>
+                <li>Interatividade: Um formulário de Contato direto e estruturado com validações básicas em scripts.</li>
+                <li>Culinária: O espaço de Receitas Favoritas, onde apresento um guia semântico e detalhado de como preparar um perfeito Mousse de Maracujá.</li>
+            </ul>
+            <div class="container_p">
+                <p class="padding">
+                    Sinta-se à vontade para explorar a interface e testar os recursos de acessibilidade, como o ajuste do tamanho da fonte e a alternância para o Modo Noturno (Dark Mode), projetados para garantir uma leitura confortável em qualquer ambiente.
+                </p>
+            </div>
+        </div>
+        <div class="width">
+            <h1>Últimas Postagens</h1>
+            <ul id="posts">
+            </ul>
+            <div id="meuModal" class="modal" style="display: none;">
+                <div class="conteudo-modal">
+                    <span onclick="fecharModal()" class="botao-fechar">&times;</span>
+                    <h2 id="modalTitulo"></h2>
+                    <p id="modalConteudo"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

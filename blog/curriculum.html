@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="fragment_nav">
+    </div>
+
+    <main class="flex">
+        <div>
+            <h1>Currículo</h1>
+            <h2>Linguagens de programação usadas na minha trajetória</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>C/C++</li>
+                <li>Rust</li>
+            </ul>
+            <h2>Experiência analítica</h2>
+            <ul>
+                <li>Interesse em lógica</li>
+                <li>Interesse em análise e ciência de dados</li>
+                <li>Pensamento abstrato</li>
+                <li>Interesse em ciência da computação prática e teórica</li>
+            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Área de estudo</th>
+                        <th>Cidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Gabriel Romão Soares</td>
+                        <td>Ciência da Computação</td>
+                        <td>Passo Fundo</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Universidade/Faculdade</th>
+                        <th>Área de estudo</th>
+                        <th>Cidade</th>
+                        <th>Tempo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>UPF</td>
+                        <td>Ciência da Computação</td>
+                        <td>Passo Fundo, RS</td>
+                        <td>1 semestre/atualmente</td>
+                    </tr>
+                    <tr>
+                        <td>FIAP</td>
+                        <td>Ciência da Computação</td>
+                        <td>São Paulo, SP</td>
+                        <td>1 ano completo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="width">
+            <h1>Últimas Postagens</h1>
+            <ul id="posts">
+            </ul>
+            <div id="meuModal" class="modal" style="display: none;">
+                <div class="conteudo-modal">
+                    <span onclick="fecharModal()" class="botao-fechar">&times;</span>
+                    <h2 id="modalTitulo"></h2>
+                    <p id="modalConteudo"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
